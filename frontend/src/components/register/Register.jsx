@@ -47,7 +47,7 @@ export const Register = ({ setActiveAuthComp }) => {
     }
 
     try {
-      const res = await newRequest.post("https://quizzie-six-three.vercel.app/auth/register", {
+      const res = await newRequest.post("auth/register", {
         username,
         email,
         password,
